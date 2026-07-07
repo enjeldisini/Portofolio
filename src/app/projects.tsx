@@ -27,9 +27,9 @@ const PROJECTS = [
   },
   {
     img: `${getImagePrefix()}fashion-store/jacket.jpg`,
-    title: "Fashion Store (Proyek Iseng)",
-    desc: "Proyek iseng pembuatan antarmuka e-commerce sederhana untuk toko baju menggunakan HTML, CSS, dan JavaScript murni.",
-    link: "/fashion-store/index.html",
+    title: "Fashion Store",
+    desc: "Proyek pembuatan antarmuka e-commerce sederhana untuk toko baju menggunakan HTML, CSS, dan JavaScript murni.",
+    link: "/fashion-store/",
   },
 ];
 
