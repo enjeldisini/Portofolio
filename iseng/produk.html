@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katalog Produk - Iseng Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">Iseng Store</div>
+        <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="produk.html" class="active">Produk</a></li>
+            <li><a href="kontak.html">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <div class="search-section" style="text-align:center; margin-top:30px; padding: 0 10%;">
+        <input type="text" id="inputCari" placeholder="Cari produk..." style="padding:12px; width:60%; border-radius:8px; border:1px solid #ddd;">
+        <button onclick="simpanPencarian()" class="btn-beli" style="width:auto; padding:12px 25px;">Cari</button>
+        
+        <div id="riwayatBox" style="margin-top:15px; font-size:14px; color:#555; background: #fff; padding: 10px; border-radius: 8px; display: inline-block;">
+            <strong>Riwayat Terakhir:</strong> <span id="listRiwayat">Belum ada pencarian</span>
+            <button onclick="hapusRiwayat()" style="border:none; background:none; color:#e74c3c; cursor:pointer; font-weight:bold; margin-left:10px;">Clear</button>
+        </div>
+    </div>
+
+    <h2 style="text-align:center; margin-top:40px;">Koleksi Terbaru</h2>
+    
+  <div class="container">
+    <div class="card">
+        <span class="badge-diskon">-20%</span>
+        <img src="baju pantai.avif" alt="Baju Pantai">
+        <h3>Baju Pantai Kece</h3>
+        <p class="harga-lama">Rp 125.000</p>
+        <p class="harga-baru">Rp 99.000</p>
+        <button class="btn-beli" onclick="tambahKeKeranjang()">Beli</button>
+    </div>
+
+    <div class="card">
+        <span class="badge-diskon">-15%</span>
+        <img src="celana.avif" alt="Celana Pendek">
+        <h3>Celana Santai</h3>
+        <p class="harga-lama">Rp 142.000</p>
+        <p class="harga-baru">Rp 120.000</p>
+        <button class="btn-beli" onclick="tambahKeKeranjang()">Beli</button>
+    </div>
+
+    <div class="card">
+        <span class="badge-diskon">-30%</span>
+        <img src="topi.jpeg" alt="Topi">
+        <h3>Topi</h3>
+        <p class="harga-lama">Rp 72.000</p>
+        <p class="harga-baru">Rp 50.000</p>
+        <button class="btn-beli" onclick="tambahKeKeranjang()">Beli</button>
+    </div>
+
+    <div class="card">
+        <span class="badge-diskon">-20%</span>
+        <img src="rok.avif" alt="rok">
+        <h3>Rok Wanita</h3>
+        <p class="harga-lama">Rp 100.000</p>
+        <p class="harga-baru">Rp 80.000</p>
+        <button class="btn-beli" onclick="tambahKeKeranjang()">Beli</button>
+    </div>
+
+    <div class="card">
+        <span class="badge-diskon">-25%</span>
+        <img src="heels.webp" alt="sepatu">
+        <h3>Sepatu Heels</h3>
+        <p class="harga-lama">Rp 100.000</p>
+        <p class="harga-baru">Rp 75.000</p>
+        <button class="btn-beli" onclick="tambahKeKeranjang()">Beli</button>
+    </div>
+    
+    <div class="card">
+        <span class="badge-diskon">-10%</span>
+        <img src="jacket.jpg" alt="jaket">
+        <h3>Jaket </h3>
+        <p class="harga-lama">Rp 167.000</p>
+        <p class="harga-baru">Rp 150.000</p>
+        <button class="btn-beli" onclick="tambahKeKeranjang()">Beli</button>
+    </div>
+</div>
+
+    <div class="contact-container" style="margin-bottom: 50px; background-color: #ffffff; border-left: 5px solid #f39c12;">
+        <h3>Informasi Penting</h3>
+        <ul style="text-align: left; list-style: none; padding: 0; margin-top: 15px;">
+            <li style="margin-bottom: 8px;">🚀 <strong>Pengiriman:</strong> Instant (Grab/Gojek) tersedia untuk area Jakarta.</li>
+            <li style="margin-bottom: 8px;">💳 <strong>Pembayaran:</strong> Mendukung Transfer Bank, E-Wallet, dan Qris.</li>
+            <li style="margin-bottom: 8px;">⭐ <strong>Promo:</strong> Beli 3 dapat diskon iseng 10%!</li>
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
