@@ -29,7 +29,7 @@ const PROJECTS = [
     img: `${getImagePrefix()}fashion-store/jacket.jpg`,
     title: "Fashion Store",
     desc: "Proyek pembuatan antarmuka e-commerce sederhana untuk toko baju menggunakan HTML, CSS, dan JavaScript murni.",
-    link: "/fashion-store/",
+    link: "https://gibrand.my.id",
   },
 ];
 
