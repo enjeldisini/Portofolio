@@ -25,6 +25,12 @@ const PROJECTS = [
     title: "E-Commerce UI Clone",
     desc: "Clone antarmuka e-commerce populer dengan fitur keranjang belanja, pencarian produk, dan halaman detail produk menggunakan React.js dan Tailwind CSS.",
   },
+  {
+    img: `${getImagePrefix()}iseng/jacket.jpg`,
+    title: "Toko Baju Online (Proyek Iseng)",
+    desc: "Proyek iseng pembuatan antarmuka e-commerce sederhana untuk toko baju menggunakan HTML, CSS, dan JavaScript murni.",
+    link: "/iseng/index.html",
+  },
 ];
 
 export function Projects() {
